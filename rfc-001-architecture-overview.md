@@ -22,4 +22,4 @@ Player accounts and resources should be managed through Ethereum smart contracts
 
 ## Deployment
 
-TODO: explain how to do continuous delivery, including running unit tests for building, integration tests, functional tests and deployment to QA vs Prod environments.
+We will use a Continuous Delivery approach, including running unit tests for building, integration tests, functional tests and deployment to QA vs Prod environments.
