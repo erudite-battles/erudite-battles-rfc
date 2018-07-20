@@ -10,7 +10,7 @@ The full game client will be built using HTML5, apriori the game will only only 
 
 ## Server
 
-## Persistencean
+## Persistence
 
 ## Resources
 
