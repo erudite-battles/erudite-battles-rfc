@@ -6,11 +6,11 @@ Erudite Battles is a full open source game, the intention is to create a competi
 
 ## Client
 
-The full game client will be built using HTML5, apriori the game will only only available through a web client like chrome, but eventually should be portable into web containers and run them in multiple platforms (mobile, application, etc..).
+The full game client will be built using HTML5 and Ember.js framework, apriori the game will only only available through a web browser, but eventually should be portable into web containers and run them in multiple platforms (mobile, application, etc..).
 
 ## Server
 
-The server will built in JAVA, most likely through Spring framework. Will expose a REST Api, and to commmunicate actions on real time will open a socket interface with the clients through Web Sockets.
+The server will built in JAVA, using Spring framework. Will expose a REST Api, and to commmunicate actions on real time will open a socket interface with the clients through Web Sockets.
 
 ## Persistence
 
