@@ -11,3 +11,9 @@ Here is an example of a communication:
  * Once finished processing will send the update to a messaging queue.
  * This messaging queue will send the update state to the player/s through websockets.
  * Also other microservices (like the AI bot one) might also fetch the new state.
+
+It is imperative to understand that some of the events in the messaging queue might block processing further requests, for example a player might not start another action until we ensure that the opponent have finished processing the animations for the previous ones.
+
+Which is why some requests might hold the 200 response for a few seconds, but then, we might invalidate the waiting and flag as one of the players as unavailable.
+
+Also, events can be discarded, the player will always be able to refresh the page and re-request the full state from the DB.
